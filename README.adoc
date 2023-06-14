@@ -12,10 +12,10 @@ You can deploy the application using the OpenShift client (`oc`) with the follow
 [source]
 ----
 # Create a new OpenShift project
-$ oc new-project mydemo
+$ oc new-project pipelines-quiz-client
 
 # Add the .NET Core application
-$ oc new-app dotnet:7.0-ubi8~https://github.com/redhat-developer/s2i-dotnetcore-ex#dotnet-7.0 --context-dir app
+$ oc new-app dotnet:7.0-ubi8~https://github.com/redhat-developer/s2i-dotnetcore-ex#dotnet-7.0 --context-dir quiz-client
 
 # Make the .NET Core application accessible externally and show the url
 $ oc expose service s2i-dotnetcore-ex
