@@ -1,0 +1,43 @@
+schemaVersion: 2.2.0
+metadata:
+  name: quiz-client
+  namespace: che-kube-admin-devspaces-r24sx6
+attributes:
+  che-theia.eclipse.org/sidecar-policy: mergeImage
+  controller.devfile.io/devworkspace-config:
+    name: devworkspace-config
+    namespace: openshift-operators
+  controller.devfile.io/scc: container-build
+  controller.devfile.io/storage-type: per-user
+  dw.metadata.annotations:
+    che.eclipse.org/devfile-source: |
+      url:
+        location: https://github.com/kirannreddy/quiz-client
+      factory:
+        params: url=https://github.com/kirannreddy/quiz-client
+projects:
+  - git:
+      remotes:
+        origin: https://github.com/kirannreddy/quiz-client.git
+    name: quiz-client
+components:
+  - attributes:
+      controller.devfile.io/merge-contribution: true
+    container:
+      env:
+        - name: CHE_DASHBOARD_URL
+          value: https://devspaces.apps.cluster-225g7.225g7.sandbox1786.opentlc.com
+        - name: CHE_PLUGIN_REGISTRY_URL
+          value: https://devspaces.apps.cluster-225g7.225g7.sandbox1786.opentlc.com/plugin-registry/v3
+        - name: CHE_PLUGIN_REGISTRY_INTERNAL_URL
+          value: http://plugin-registry.openshift-operators.svc:8080/v3
+        - name: CLUSTER_CONSOLE_URL
+          value: https://console-openshift-console.apps.cluster-225g7.225g7.sandbox1786.opentlc.com
+        - name: CLUSTER_CONSOLE_TITLE
+          value: OpenShift console
+        - name: OPENVSX_REGISTRY_URL
+          value: ''
+      image: quay.io/juhan/npmdotnet6
+      memoryLimit: 5120Mi
+      sourceMapping: /projects
+    name: universal-developer-image
