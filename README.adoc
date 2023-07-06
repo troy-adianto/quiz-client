@@ -1,3 +1,8 @@
+Workspace Link - https://devspaces.apps.cluster-225g7.225g7.sandbox1786.opentlc.com/workspace59c1bd1314004cce/universal-developer-image/3100/
+
+
+
+
 = .NET Core Sample App for OpenShift
 
 This repository contains a simple MVC .NET Core application that can be deployed on OpenShift.
