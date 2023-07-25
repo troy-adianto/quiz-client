@@ -12,9 +12,9 @@ attributes:
   dw.metadata.annotations:
     che.eclipse.org/devfile-source: |
       url:
-        location: https://repository-quiz-app.apps.cluster-w7sdm.w7sdm.sandbox291.opentlc.com/moondial/quiz-client.git
+        location: https://repository-quiz-app.apps.cluster-w7sdm.w7sdm.sandbox291.opentlc.com/moondial/quiz-client
       factory:
-        params: url=https://repository-quiz-app.apps.cluster-w7sdm.w7sdm.sandbox291.opentlc.com/moondial/quiz-client.git
+        params: url=https://repository-quiz-app.apps.cluster-w7sdm.w7sdm.sandbox291.opentlc.com/moondial/quiz-client
 projects:
   - git:
       remotes:
