@@ -1,4 +1,4 @@
-Workspace Link - [Click Me](https://devspaces.apps.cluster-225g7.225g7.sandbox1786.opentlc.com/kube-admin/quiz-client-gitea/3100/)
+Workspace Link - [Click Me](https://devspaces.apps.cluster-w7sdm.w7sdm.sandbox291.opentlc.com/kube-admin/quiz-client/3100/)
 
 
 
