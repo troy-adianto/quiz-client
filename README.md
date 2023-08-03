@@ -1,4 +1,4 @@
-Workspace Link - https://devspaces.apps.cluster-225g7.225g7.sandbox1786.opentlc.com/workspace59c1bd1314004cce/universal-developer-image/3100/
+Workspace Link - [Click Me](https://devspaces.apps.cluster-225g7.225g7.sandbox1786.opentlc.com/kube-admin/quiz-client-gitea/3100/)
 
 
 
