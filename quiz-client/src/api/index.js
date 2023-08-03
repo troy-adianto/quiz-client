@@ -1,5 +1,10 @@
 import axios from 'axios'
 
+/*
+To be changed
+e.g.
+export const BASE_URL = 'http://workspacefd87eacbd94646c4-2.apps.cluster-225g7.225g7.sandbox1786.opentlc.com/';
+*/
 export const BASE_URL = 'http://localhost:5041/';
 
 export const ENDPOINTS = {

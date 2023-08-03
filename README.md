@@ -1,3 +1,8 @@
+Workspace Link - [Click Me](https://devspaces.apps.cluster-w7sdm.w7sdm.sandbox291.opentlc.com/kube-admin/quiz-client/3100/)
+
+
+
+
 = .NET Core Sample App for OpenShift
 
 This repository contains a simple MVC .NET Core application that can be deployed on OpenShift.
